@@ -36,8 +36,8 @@ def load_and_process(url_or_path_to_csv_file):
     df1
     .loc[df1.number_of_reviews > 10]
     .replace({r'\%':''}, regex=True)
-    .to_numeric(df1['host_acceptance_rate']
-    .to_numeric(df1['host_response_rate']
+    .to_numeric(df1['host_acceptance_rate'])
+    .to_numeric(df1['host_response_rate'])
     .reset_index(drop=True)
                )
     
