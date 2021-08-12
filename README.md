@@ -23,3 +23,7 @@ This dataset was provided by Airbnb, it is a dataset of rental listings in Athen
 ## References
 
 http://insideairbnb.com/athens/
+
+## Project Presentation
+
+https://youtu.be/AhAItkpLK2c
